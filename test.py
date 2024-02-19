@@ -6,6 +6,7 @@ def test_enrollStudents():
     obj.enrollStudents(5)
     assert obj.getTotalStrength() == 5
 
+
 def test_dropStudents():
     obj = StudentsInMLOps()
     obj.enrollStudents(10)
